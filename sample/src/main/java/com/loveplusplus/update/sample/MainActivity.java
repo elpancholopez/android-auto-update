@@ -11,7 +11,7 @@ import com.loveplusplus.update.UpdateChecker;
 
 public class MainActivity extends ActionBarActivity {
 
-    protected static final String APP_UPDATE_SERVER_URL = "http://192.168.205.33:8080/Hello/api/update";
+    protected static final String APP_UPDATE_SERVER_URL = "https://dl.dropboxusercontent.com/u/34318932/updateinfo.json";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

@@ -73,9 +73,14 @@ public final class StorageUtils {
 				return null;
 			}
 			try {
-				new File(appCacheDir, ".nomedia").createNewFile();
+
+				if (!new File(appCacheDir, ".nomedia").createNewFile()){
+					Log.i(TAG,"Can't create \".nomedia\" file in application external cache directory");
+
+				}
 			} catch (IOException e) {
 				Log.i(TAG,"Can't create \".nomedia\" file in application external cache directory");
+				e.printStackTrace();
 			}
 		}
 		return appCacheDir;
