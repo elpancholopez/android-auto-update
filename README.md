@@ -1,48 +1,36 @@
-Android应用自动更新库(android-auto-update)
+android-auto-update
 ===================
 
 
-该library项目实现了软件版本检查，apk文件下载，软件安装（Android app update checker,download and install apk）支持API 8+
+Android app update checker,download and install apk API 8+
 
 
-#### 1.导入library项目 ####
+#### 1.How to use the library####
 
-提供2种版本检查方式,在你的项目中添加以下代码即可
+Provide two kinds of version check mode, you can add the following code in your project
 
-- 使用Dialog
+- Dialog
    
     	`UpdateChecker.checkForDialog(this);`
 
-- 使用Notification
+- Notification
 
 	`UpdateChecker.checkForNotification(this);`
 
 
 
-#### 2.添加权限 ####
+#### 2. Add the permissions ####
 
-- 添加访问网络的权限
+- Permission to add to access the network
 
 	`<uses-permission android:name="android.permission.INTERNET" />`
 
-- 添加写SDCard权限（可选，非必须）
-
-	如果添加这个权限 apk下载在sdcard中的Android/data/包名/cache目录下 否则下载到 内存中的 /data/data/包名/cache中
+- Adding write SDCard permissions (optional, non-essential)
 
 	`<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`
 
-#### 3.截图 ####
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/sample.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/sample_htc.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/dialog.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/dialog_htc.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/notification.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/notification_avd.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/downloading.png)
-![screenshot](https://raw.github.com/feicien/android-auto-update/master/screenshots/downloading_avd.png)
 
-
-#### 4.使用与参考的开源项目 ####
+#### 3.Use of open-source projects and reference ####
 
 
 
