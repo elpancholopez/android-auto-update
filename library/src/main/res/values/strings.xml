@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="newUpdateAvailable">Nueva versión disponible</string>
-    <string name="dialogPositiveButton">Descargar</string>
-    <string name="dialogNegativeButton">Cancelar</string>
-    <string name="app_no_new_update">No existen actualizaciones disponibles</string>
-    <string name="download_progress">Descargando:%1$d%%</string>
-    <string name="download_success">La descarga esta completa, haga click para instalar</string>
+    <string name="newUpdateAvailable">New update available</string>
+    <string name="dialogPositiveButton">Download</string>
+    <string name="dialogNegativeButton">Cancel</string>
+    <string name="app_no_new_update">This app is already updated</string>
+    <string name="download_progress">Download :%1$d%%</string>
+    <string name="download_success">Download complete!, please click here for install</string>
     
    
 </resources>
